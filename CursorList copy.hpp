@@ -40,7 +40,7 @@ class List {
     void push_front(int x){ 
         if(tail == NIL && head == NIL && size ==0){
             tail = spare;
-            head = spare; //dopisałam
+            head = spare; 
         }
         int node = allocate();
         if(node == NIL){
